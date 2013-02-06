@@ -20,9 +20,9 @@
 	}
 
 	, "dependencies"    : {
-		"lodash" : "1.0.0-rc.3"
 	}
 	, "devDependencies" : {
+		"mocha" : "1.8.1"
 	}
 	, "config"          : {
 		"native" : false
