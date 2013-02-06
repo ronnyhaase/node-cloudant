@@ -8,8 +8,8 @@
 	, "contributors"    : [
 	]
 	, "licenses"        : [
-		"type" : "Mozilla Public License 2.0 (MPL-2.0)"
-		, "url"  : "http://opensource.org/licenses/MPL-2.0"
+		{ "type" : "Mozilla Public License 2.0 (MPL-2.0)"
+		, "url"  : "http://opensource.org/licenses/MPL-2.0" }
 	]
 	, "repository"      : {
 		"type"  : "git"

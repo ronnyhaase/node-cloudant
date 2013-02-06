@@ -1,5 +1,8 @@
 .DS_Store
 *.tmp
 *.log
+*.swp
+
+node_modules/
 
 npm-debug.log
