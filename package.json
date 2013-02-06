@@ -1,0 +1,37 @@
+{
+	  "name"            : "node-cloudant"
+	, "description"     : "A node.js client library for Cloudant"
+	, "keywords"        : ["cloudant", "couchdb", "bigcouch", "db"]
+	, "version"         : "0.1.1"
+	, "author"          : "Ronny Haase <ronhaase@gmail.com>"
+	, "homepage"        : "http://ronnyhaase.github.com/node-cloudant/"
+	, "contributors"    : [
+	]
+	, "licenses"        : [
+		"type" : "Mozilla Public License 2.0 (MPL-2.0)"
+		, "url"  : "http://opensource.org/licenses/MPL-2.0"
+	]
+	, "repository"      : {
+		"type"  : "git"
+		, "url" : "https://github.com/ronnyhaase/node-cloudant"
+	}
+	, "bugs"            : {
+		"url": "https://github.com/ronnyhaase/node-cloudant/issues"
+	}
+
+	, "dependencies"    : {
+		"lodash" : "1.0.0-rc.3"
+	}
+	, "devDependencies" : {
+	}
+	, "config"          : {
+		"native" : false
+	}
+	, "main"            : "./lib/cloudant/index"
+	, "directories"     : {
+		"lib" : "./lib/cloudant"
+	}
+	, "engines"         : {
+		"node" : ">=0.8.11"
+	}
+}
