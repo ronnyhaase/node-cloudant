@@ -1,0 +1,6 @@
+.npmignore
+.gitignore
+.DS_Store
+*.tmp
+README.md
+test/
