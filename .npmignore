@@ -1,5 +1,6 @@
 .npmignore
 .gitignore
+.gitconfig
 .DS_Store
 *.tmp
 README.md
