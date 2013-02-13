@@ -31,7 +31,7 @@
 	, "config"          : {
 		"native" : false
 	}
-	, "main"            : "./lib/cloudant/index"
+	, "main"            : "./lib/cloudant"
 	, "directories"     : {
 		"lib" : "./lib/cloudant"
 		, "test": "test"
