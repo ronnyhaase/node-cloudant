@@ -40,6 +40,6 @@
 		"node" : ">=0.8.11"
 	}
 	, "scripts": {
-		"test": "./node_modules/jshint/bin/hint ./*.js ./lib/cloudant/*.js ./test/*.js"
+		"test": "./node_modules/jshint/bin/hint ./lib/*.js ./lib/cloudant/*.js ./test/*.js"
 	}
 }
