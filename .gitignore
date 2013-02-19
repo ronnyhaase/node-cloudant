@@ -1,10 +1,40 @@
-.DS_Store
-*.tmp
+### Always ignore
+
+*~
+*.diff
+*.err
 *.log
+*.orig
+*.rej
+*.sass-cache
+*.swo
 *.swp
+*.tmp
+*.vi
+*.zip
 
-node_modules/
+### OS / Editors
 
-npm-debug.log
+.DS_Store
+._*
+Thumbs.db
+.cache
 
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.komodoproject
+.komodotools
 .gitconfig
+
+### Folders
+.git/
+.svn/
+.CVS/
+node_modules/
+dist/
+
