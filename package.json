@@ -8,24 +8,26 @@
 	, "contributors"    : [
 	]
 	, "licenses"        : [
-		{ "type" : "Mozilla Public License 2.0 (MPL-2.0)"
-		, "url"  : "http://opensource.org/licenses/MPL-2.0" }
+		{ 
+			  "type" : "Mozilla Public License 2.0 (MPL-2.0)"
+			, "url"  : "http://opensource.org/licenses/MPL-2.0"
+		}
 	]
 	, "repository"      : {
-		"type"  : "git"
-		, "url" : "https://github.com/ronnyhaase/node-cloudant"
+		  "type" : "git"
+		, "url"  : "https://github.com/ronnyhaase/node-cloudant"
 	}
 	, "bugs"            : {
 		"url": "https://github.com/ronnyhaase/node-cloudant/issues"
 	}
 
 	, "dependencies"    : {
-		"lodash" : "1.0.0-rc.3"
+		  "lodash"  : "1.0.0-rc.3"
 		, "request" : "2.12.0"
 	}
 	, "devDependencies" : {
-		"mocha" : "1.8.1"
-		, "jshint" : "0.9.1"
+		  "mocha"  : "1.8.1"
+		, "jshint" : "1.1.0"
 		, "jslint" : "0.1.9"
 	}
 	, "config"          : {
@@ -33,8 +35,8 @@
 	}
 	, "main"            : "./lib/cloudant"
 	, "directories"     : {
-		"lib" : "./lib/cloudant"
-		, "test": "test"
+		  "lib"  : "./lib/cloudant"
+		, "test" : "test"
 	}
 	, "engines"         : {
 		"node" : ">=0.8.11"
