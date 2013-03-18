@@ -1,5 +1,5 @@
 {
-	  "name"            : "node-cloudant"
+	  "name"            : "cloudant"
 	, "description"     : "A node.js client library for Cloudant"
 	, "keywords"        : ["cloudant", "couchdb", "bigcouch", "db"]
 	, "version"         : "0.1.1"
@@ -23,7 +23,6 @@
 
 	, "dependencies"    : {
 		  "lodash"  : "latest"
-		, "q"       : "latest"
 		, "request" : "latest"
 	}
 	, "devDependencies" : {
